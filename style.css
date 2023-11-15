@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+}
+
+/* Este apartado va todo lo relacionado a la barra de navegacion */
+.barra-navegacion{
+    background-color: aqua;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logo{
+    background-color: blueviolet;
+    width: 35%;
+    height: 100%;
+}
+
+.nav{
+    
+    background-color: crimson;
+    width: 16.25%;
+    height: 98%;
+    border: 1px solid black;
+}
+
+/* Este apartado se usa para lo que primero ve el espectador */
+.principal{
+    background-color: burlywood;
+    width: 100%;
+    height: 500px;
+}
+
+/* Aca van las targetas con muestras de colores. */
+.colores{
+    background-color: chocolate;
+    width: 100%;
+    height: 700px;
+}
+
+/* Seccion de pago y proyectos */
+.seccion-pago, .proyectos{
+    background-color: darkslategrey;
+    width: 100%;
+    height: 75px;
+    display: flex;
+}
+
+.areaAbarcada, .mediosPago, .fabricacionPropia{
+    background-color: red;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+/* Muestras de 4x4 */
+.muestras4x4{
+    background-color: darkviolet;
+    width: 100%;
+    height: 700px;
+    display:flex;
+    flex-direction: row;
+    
+}
+.cajas4x4{
+    background-color: black;
+    width: 20%;
+    height: 10px;
+    border: 2px solid white;
+}
+
+/* Ultimos Trabajos */
+
+.ultimosTrabajos{
+    background-color: firebrick;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    
+}
+
+.cajasTrabajo{
+    background-color: black;
+    width:250px;
+    height:250px;
+    border: 2px solid white;
+    margin: auto;
+}
+
+
+
+/* Pie de pagina */
+
+footer{
+    background-color: rgb(34, 72, 178);
+    width: 100%;
+    height: 300px;
+}
+
+
